@@ -5,7 +5,7 @@ const {router}=require('../routes/route.js')
 const connectDB=require('../connect/connect.js')
 const port=process.env.PORT
 app.use(cors())
-app.use('/task',router)
+app.use('/',router)
 require('dotenv').config()
 
 
